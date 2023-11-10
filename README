@@ -1,0 +1,11 @@
+For Windows:
+Save your Python script as a .py file, e.g., process_tracker.py.
+
+Open Task Scheduler.
+
+Create a new task:
+
+General tab: Set a name and description for the task.
+Triggers tab: Create a new trigger for "At log on" to run the task when the user logs in.
+Actions tab: Create a new action for "Start a program" and browse to the location of your Python executable (e.g., C:\Path\To\python.exe) and set the arguments to the path of your script (e.g., C:\Path\To\process_tracker.py).
+Save and run the task.
